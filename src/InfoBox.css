@@ -1,0 +1,47 @@
+.infoBox {
+    flex: 1;
+    cursor: pointer;
+   
+  }
+  
+  .infoBox:not(:last-child) {
+    margin-right: 20px;
+  }
+  
+  .infoBox--selected {
+    border-top: 10px solid rgb(190, 252, 97);
+  }
+  
+  .infoBox--red {
+    border-color: #cc3232;
+  }
+  
+  .infoBox__cases--green {
+    color: #88d8b0 !important;
+  }
+  
+  .infoBox__cases {
+    color: #ff6f69;
+    font-weight: 600;
+    font-size: 1.50rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .infoBox__total {
+    color: #1e2124;
+    font-weight: 400 !important;
+    font-size: 0.9rem !important;
+    margin-top: 15px !important;
+  }
+
+  .app__stats .MuiCard-root{
+    background-color: #282b30;
+   
+  }
+
+  .app__stats .MuiTypography-root{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    
+  }

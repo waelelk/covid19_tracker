@@ -1,0 +1,29 @@
+.app__information > h3 {
+  color: white;
+}
+
+.table {
+  margin-top: 20px;
+  overflow: scroll;
+  color: white;
+  background-color: #424549;
+  height: 470px;
+  width: 100%;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+
+.table tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table td {
+  padding: 0.5rem;
+  border: none;
+}
+
+.table tr:nth-of-type(odd) {
+  background-color: #282b30;
+}
